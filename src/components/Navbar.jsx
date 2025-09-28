@@ -11,6 +11,7 @@ import {
   NavbarMenuItem,
 } from "@heroui/react";
 import { FaWhatsapp, FaFacebook } from "react-icons/fa";
+import logo from '../../public/screencapture-manage-wix-logo-maker-esh-brands-a5de71a7-3284-4ed6-a64f-403dbe516c3d-design-editor-edit-2025-09-29-01_32_11.png'
 
 export default function MyNavbar() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -22,9 +23,19 @@ export default function MyNavbar() {
       isMenuOpen={isMenuOpen}   // ✅ لازم يتربط بالستيت
     >
       {/* Logo */}
-      <NavbarBrand>
-        <p className="font-bold text-black">Eslam</p>
-      </NavbarBrand>
+    <NavbarBrand>
+  <Link href="#" className="flex items-center gap-2">
+    <img
+      src={logo}
+      alt="Eslam Kitchens Logo"
+      className="h-10 rounded-lg w-auto object-contain"
+    />
+    <span className="text-lg font-bold text-black hidden sm:block">
+      Eslam
+    </span>
+  </Link>
+</NavbarBrand>
+
 
       {/* Center Links (Desktop) */}
       <NavbarContent className="hidden sm:flex gap-20" justify="center">
