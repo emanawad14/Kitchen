@@ -120,7 +120,7 @@ export default function Home() {
             />
             <h2 className="text-3xl font-bold mb-2">المهندس/ إسلام تعلب</h2>
             <p className="text-gray-600 mb-4">أفضل تصميمات مطابخ الألوميتال العصرية</p>
-            <p className="text-gray-500"> العنوان: القاهرة - مصر</p>
+            <p className="text-gray-500"> العنوان: اجا - برج النور</p>
             <p className="text-gray-500"> للتواصل: 01063708830</p>
           </div>
 
