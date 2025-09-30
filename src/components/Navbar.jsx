@@ -22,7 +22,7 @@ export default function MyNavbar() {
       onMenuOpenChange={setIsMenuOpen}
       isMenuOpen={isMenuOpen}   // ✅ لازم يتربط بالستيت
     >
-      {/* Logo */}
+      
     <NavbarBrand>
   <Link href="#" className="flex items-center gap-2">
     <img
@@ -37,7 +37,7 @@ export default function MyNavbar() {
 </NavbarBrand>
 
 
-      {/* Center Links (Desktop) */}
+      
       <NavbarContent className="hidden sm:flex gap-20" justify="center">
         <NavbarItem>
           <Link color="foreground" href="#">

@@ -38,7 +38,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-black/50"></div>
         <div className="relative z-10 px-6">
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
-            مطبخ الالمونتال .. ذوقك يبان في تفاصيل بيتك
+            مطبخ الألوميتال .. ذوقك يبان في تفاصيل بيتك
           </h1>
           <p className="text-lg md:text-2xl mb-8">
             خامات عالية الجودة · تصاميم عصرية · تسليم في الميعاد
@@ -133,19 +133,19 @@ export default function Home() {
               <img
                 src={imaged1}
                 alt="مطبخ"
-                className="w-60 h-60 rounded-full object-cover shadow-lg hover:scale-105 transition"
+                className="w-35 h-35 rounded-full object-cover shadow-lg hover:scale-105 transition"
               />
               <img
                 src={imaged2}
                 alt="مطبخ"
-                className="w-45 h-45 rounded-full object-cover shadow-lg hover:scale-105 transition"
+                className="w-35 h-35 rounded-full object-cover shadow-lg hover:scale-105 transition"
               />
             </div>
             <div>
               <img
                 src={imaged3}
                 alt="مطبخ"
-                className="w-45 h-45 rounded-full object-cover shadow-lg hover:scale-105 transition"
+                className="w-35 h-35 rounded-full object-cover shadow-lg hover:scale-105 transition"
               />
             </div>
           </div>
