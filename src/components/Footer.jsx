@@ -29,7 +29,7 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Quick Links */}
+       
         <div>
           <h3 className="font-bold text-lg mb-3">روابط سريعة</h3>
           <ul className="space-y-2 text-sm">
@@ -46,13 +46,13 @@ export default function Footer() {
           <h3 className="font-bold text-lg mb-3">تواصل معنا</h3>
           <ul className="space-y-2 text-sm">
             <li className="flex items-center gap-2">
-              <MdLocationOn /> شارع الملوك الثلاثة 215 - سينت نيكلاس
+              <MdLocationOn /> برج النور الحمص
             </li>
             <li className="flex items-center gap-2">
-              <MdPhone /> +32 491 129917
+              <MdPhone /> 01063708830
             </li>
             <li className="flex items-center gap-2">
-              <MdPhone /> +32 465 218194
+              <MdPhone /> 01063708830
             </li>
             <li className="flex items-center gap-2">
               <MdEmail /> info@emo-renovation.be
@@ -61,7 +61,7 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Copy Rights */}
+     
       <div className="text-center text-sm mt-8 border-t border-gray-600 pt-4">
        2025 © تـعـلـب كـتـشـن - جميع الحقوق محفوظة.
       </div>

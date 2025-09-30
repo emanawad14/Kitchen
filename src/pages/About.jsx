@@ -22,7 +22,7 @@ export default function About() {
             </p>
           </div>
 
-          {/* بوكس 2 */}
+         
           <div className="bg-white text-[#284b63] rounded-xl shadow-md p-6 text-center">
             <FaMapMarkerAlt className="text-4xl mx-auto mb-4" />
             <h3 className="font-bold text-lg mb-2">منطقة عمل واسعة</h3>
@@ -31,7 +31,7 @@ export default function About() {
             </p>
           </div>
 
-          {/* بوكس 3 */}
+          
           <div className="bg-white text-[#284b63] rounded-xl shadow-md p-6 text-center">
             <FaTools className="text-4xl mx-auto mb-4" />
             <h3 className="font-bold text-lg mb-2">كل شيء تحت سقف واحد</h3>
@@ -40,7 +40,7 @@ export default function About() {
             </p>
           </div>
 
-          {/* بوكس 4 */}
+          
           <div className="bg-white text-[#284b63] rounded-xl shadow-md p-6 text-center">
             <FaUserFriends className="text-4xl mx-auto mb-4" />
             <h3 className="font-bold text-lg mb-2">ودودون وموثوقون</h3>

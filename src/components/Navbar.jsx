@@ -20,8 +20,7 @@ export default function MyNavbar() {
     <HeriUi
       className="shadow-lg text-white"
       onMenuOpenChange={setIsMenuOpen}
-      isMenuOpen={isMenuOpen}   // ✅ لازم يتربط بالستيت
-    >
+      isMenuOpen={isMenuOpen}  >
       
     <NavbarBrand>
   <Link href="#" className="flex items-center gap-2">
@@ -61,9 +60,9 @@ export default function MyNavbar() {
         </NavbarItem>
       </NavbarContent>
 
-      {/* Right Side (Desktop) */}
+      
       <NavbarContent justify="end" className="gap-4">
-        {/* WhatsApp */}
+       
         <NavbarItem>
           <Button
             as={Link}
@@ -78,7 +77,7 @@ export default function MyNavbar() {
           </Button>
         </NavbarItem>
 
-        {/* Facebook */}
+       
         <NavbarItem>
           <Button
             as={Link}
@@ -93,16 +92,16 @@ export default function MyNavbar() {
           </Button>
         </NavbarItem>
 
-        {/* Menu Toggle (Mobile) */}
+        
         <NavbarMenuToggle
-          isSelected={isMenuOpen}             // ✅ بيربط الآيكونة بالحالة
-          onClick={() => setIsMenuOpen(!isMenuOpen)} // ✅ يقلب الفتح والقفل
+          isSelected={isMenuOpen}             
+          onClick={() => setIsMenuOpen(!isMenuOpen)} 
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
           className="sm:hidden"
         />
       </NavbarContent>
 
-      {/* Mobile Menu */}
+      
       <NavbarMenu>
         <NavbarMenuItem>
           <Link color="foreground" href="#">
@@ -125,7 +124,7 @@ export default function MyNavbar() {
           </Link>
         </NavbarMenuItem>
 
-        {/* WhatsApp Btn */}
+        
         <NavbarMenuItem>
           <Button
             as={Link}
@@ -141,7 +140,7 @@ export default function MyNavbar() {
           </Button>
         </NavbarMenuItem>
 
-        {/* Facebook Btn */}
+       
         <NavbarMenuItem>
           <Button
             as={Link}

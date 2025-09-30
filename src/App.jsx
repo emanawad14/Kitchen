@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import Footer from './components/Footer'
 import About from './pages/About'
 import ContactPage from './pages/Contact'
+import Gallery from './pages/Gallery'
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
       <Home/>
       <About/>
       <ContactPage/>
+      <Gallery/>
       <Footer/>
      
      
